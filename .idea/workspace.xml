@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5b90a01-8269-477b-b53d-4b9ca7d75602" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MinimumPathSum64/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MinimumPathSum64/SolutionTest.java" afterDir="false" />
+    <list default="true" id="c5b90a01-8269-477b-b53d-4b9ca7d75602" name="Default" comment="asdsdsd">
+      <change afterPath="$PROJECT_DIR$/src/LetterCombinationsofaPhoneNumber/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LetterCombinationsofaPhoneNumber/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RestoreIPAddresses93/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RestoreIPAddresses93/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esercizi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/esercizi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlusOne66/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlusOne66/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,22 +16,35 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/esercizi$SolutionTest_letterCombinations.ic" NAME="SolutionTest.letterCombinations Coverage Results" MODIFIED="1545822538536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>LetterCombinationsofaPhoneNumber.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MinimumPathSum64/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/LetterCombinationsofaPhoneNumber/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            <state relative-caret-position="153">
+              <caret line="33" column="17" lean-forward="true" selection-start-line="5" selection-end-line="37" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MinimumPathSum64/SolutionTest.java">
+        <entry file="file://$PROJECT_DIR$/src/LetterCombinationsofaPhoneNumber/SolutionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="272">
+              <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+              <folding>
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#625#633#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,7 +63,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="esercizi" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -66,6 +78,10 @@
         <option value="$PROJECT_DIR$/src/MinimumPathSum64/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/PlusOne66/Solution.java" />
         <option value="$PROJECT_DIR$/src/MinimumPathSum64/Solution.java" />
+        <option value="$PROJECT_DIR$/src/RestoreIPAddresses93/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/RestoreIPAddresses93/Solution.java" />
+        <option value="$PROJECT_DIR$/src/LetterCombinationsofaPhoneNumber/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/LetterCombinationsofaPhoneNumber/Solution.java" />
       </list>
     </option>
   </component>
@@ -89,6 +105,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,9 +122,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -119,11 +135,14 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/siw-jpa-es1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="LetterCombinationsofaPhoneNumber" />
+      <recent name="RestoreIPAddresses93" />
       <recent name="MinimumPathSum64" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -142,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SolutionTest.letterCombinations">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -160,6 +179,52 @@
       <option name="MAIN_CLASS_NAME" value="MinimumPathSum64.SolutionTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SolutionTest.letterCombinations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="esercizi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LetterCombinationsofaPhoneNumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="LetterCombinationsofaPhoneNumber" />
+      <option name="MAIN_CLASS_NAME" value="LetterCombinationsofaPhoneNumber.SolutionTest" />
+      <option name="METHOD_NAME" value="letterCombinations" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SolutionTest.restoreIpAddresses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="esercizi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestoreIPAddresses93.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="RestoreIPAddresses93" />
+      <option name="MAIN_CLASS_NAME" value="RestoreIPAddresses93.SolutionTest" />
+      <option name="METHOD_NAME" value="restoreIpAddresses" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -207,8 +272,15 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.SolutionTest" />
+      <item itemvalue="JUnit.SolutionTest.restoreIpAddresses" />
+      <item itemvalue="JUnit.SolutionTest.letterCombinations" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest.letterCombinations" />
+        <item itemvalue="JUnit.SolutionTest.restoreIpAddresses" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.SolutionTest" />
@@ -227,7 +299,10 @@
       <updated>1545157052380</updated>
       <workItem from="1545157058818" duration="902000" />
       <workItem from="1545305754926" duration="854000" />
-      <workItem from="1545463977903" duration="2435000" />
+      <workItem from="1545463977903" duration="3856000" />
+      <workItem from="1545559617833" duration="626000" />
+      <workItem from="1545661741982" duration="1563000" />
+      <workItem from="1545821909859" duration="1694000" />
     </task>
     <task id="LOCAL-00001" summary="asdsdsd">
       <created>1545157264380</created>
@@ -236,19 +311,50 @@
       <option name="project" value="LOCAL" />
       <updated>1545157264380</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="asdsdsd">
+      <created>1545466996580</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545466996580</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest - 2018.12.22 at 08h 50m 31s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest_letterCombinations - 2018.12.26 at 12h 08m 47s.xml">
+      <configuration name="SolutionTest.letterCombinations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest - 2018.12.22 at 08h 57m 12s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest_letterCombinations - 2018.12.26 at 12h 09m 01s.xml">
+      <configuration name="SolutionTest.letterCombinations" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest_letterCombinations - 2018.12.26 at 12h 11m 12s.xml">
+      <configuration name="SolutionTest.letterCombinations" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest_letterCombinations - 2018.12.26 at 12h 12m 21s.xml">
+      <configuration name="SolutionTest.letterCombinations" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest_letterCombinations - 2018.12.26 at 12h 13m 10s.xml">
+      <configuration name="SolutionTest.letterCombinations" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest_letterCombinations - 2018.12.26 at 12h 13m 33s.xml">
+      <configuration name="SolutionTest.letterCombinations" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest_letterCombinations - 2018.12.26 at 12h 13m 37s.xml">
+      <configuration name="SolutionTest.letterCombinations" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest_letterCombinations - 2018.12.26 at 12h 20m 41s.xml">
+      <configuration name="SolutionTest.letterCombinations" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest_letterCombinations - 2018.12.26 at 12h 21m 30s.xml">
+      <configuration name="SolutionTest.letterCombinations" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest_letterCombinations - 2018.12.26 at 12h 22m 40s.xml">
+      <configuration name="SolutionTest.letterCombinations" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5387000" />
+    <option name="totallyTimeSpent" value="10691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="28" y="29" width="1346" height="688" extended-state="0" />
@@ -256,7 +362,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32909092" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32909092" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -264,18 +370,19 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32909092" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32909092" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32970452" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25738725" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2690513" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -298,33 +405,139 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MinimumPathSum64/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/RestoreIPAddresses93/Solution.java</url>
           <line>9</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MinimumPathSum64/Solution.java</url>
-          <line>13</line>
+          <url>file://$PROJECT_DIR$/src/RestoreIPAddresses93/Solution.java</url>
+          <line>23</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MinimumPathSum64/Solution.java</url>
-          <line>12</line>
+          <url>file://$PROJECT_DIR$/src/RestoreIPAddresses93/Solution.java</url>
+          <line>16</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MinimumPathSum64/Solution.java</url>
-          <line>11</line>
+          <url>file://$PROJECT_DIR$/src/RestoreIPAddresses93/Solution.java</url>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LetterCombinationsofaPhoneNumber/Solution.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LetterCombinationsofaPhoneNumber/Solution.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LetterCombinationsofaPhoneNumber/Solution.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LetterCombinationsofaPhoneNumber/Solution.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LetterCombinationsofaPhoneNumber/Solution.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LetterCombinationsofaPhoneNumber/Solution.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LetterCombinationsofaPhoneNumber/Solution.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LetterCombinationsofaPhoneNumber/Solution.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LetterCombinationsofaPhoneNumber/Solution.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/MinimumPathSum64/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoreIPAddresses93/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoreIPAddresses93/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="43" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MinimumPathSum64/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WiggleSubsequence376/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MinimumPathSum64/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WiggleSubsequence376/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/WiggleSubsequence376/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -493,6 +706,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MinimumPathSum64/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/WiggleSubsequence376/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -500,17 +720,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoreIPAddresses93/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoreIPAddresses93/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MinimumPathSum64/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
+        <state relative-caret-position="316">
           <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MinimumPathSum64/SolutionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/LetterCombinationsofaPhoneNumber/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="272">
+          <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+          <folding>
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#625#633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LetterCombinationsofaPhoneNumber/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="33" column="17" lean-forward="true" selection-start-line="5" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
